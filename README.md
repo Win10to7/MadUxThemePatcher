@@ -1,15 +1,15 @@
-# ShittyUxTheme
+# MadUxThemePatcher
 
 ## About
 
-A file patching UxTheme patcher. If you don't intentionally seek this, I recommend using [SecureUxTheme](https://github.com/namazso/SecureUxTheme) instead.
+Yet another UxTheme Patcher used internally in the Windows 10 to 7 Transformation Pack (Not yet implemented.)
 
 ## Features
 
-* Patches system files
-* Probably breaks your install on Windows update
-* Grabs patch sites from Microsoft symbols
-* Compatible Windows XP -> Windows 11 (and probably future versions)
+* Same features as [ShittyUxTheme](https://github.com/namazso/ShittyUxTheme)
+* Automatic Uninstaller
+* Auto copying Executable as a backup Uninstaller (C:\Program Files (x86)\MadUXThemePatcher)
+* Compatible Windows XP -> Windows 11 (and probably future versions) [Confirmed working on Windows 11 Version 24H2)
 * Does patches same way as UltraUxThemePatcher
 * x86, x64, ARM64 supported
 * Easy to embed into silent installers
@@ -17,12 +17,12 @@ A file patching UxTheme patcher. If you don't intentionally seek this, I recomme
 ## Usage
 
 1. Compile for your architecture
-2. Put `dbghelp.dll`, `symsrv.dll`, `symsrv.yes` files next to the output binary
+2. Put `dbghelp.dll`, `symsrv.dll`, `SymbolCheck.dll` files next to the output binary
 3. Run as Administrator
 
 ## Donations
 
-This software is provided completely free of charge to you, however I spent time and effort developing it. If you like this software, please consider making a donation:
+Support the original developer namazso by donating to them directly:
 
 * Bitcoin: 1N6UzYgzn3sLV33hB2iS3FvYLzD1G4CuS2
 * Monero: 83sJ6GoeKf1U47vD9Tk6y2MEKJKxPJkECG3Ms7yzVGeiBYg2uYhBAUAZKNDH8VnAPGhwhZeqBnofDPgw9PiVtTgk95k53Rd
@@ -31,6 +31,7 @@ This software is provided completely free of charge to you, however I spent time
 
 	MIT License
 
+	Copyright (c) 2025 ImSwordQueen
 	Copyright (c) 2021 namazso <admin@namazso.eu>
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
